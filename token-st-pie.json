@@ -566,6 +566,10 @@
             "value": "{color.base.light}",
             "type": "color"
           },
+          "light-primary": {
+            "value": "{color.base.primary.B-50}",
+            "type": "color"
+          },
           "warning": {
             "value": "#FFF6E6",
             "type": "color"
@@ -1679,6 +1683,10 @@
             "value": "{font.base.regular.text-10}",
             "type": "typography"
           },
+          "small-bold": {
+            "value": "{font.base.bold.text-10}",
+            "type": "typography"
+          },
           "bold": {
             "value": "{font.base.bold.text-9}",
             "type": "typography"
@@ -1693,6 +1701,10 @@
             "value": "{font.base.regular.text-10}",
             "type": "typography"
           },
+          "small-bold": {
+            "value": "{font.base.bold.text-10}",
+            "type": "typography"
+          },
           "bold": {
             "value": "{font.base.bold.text-9}",
             "type": "typography"
@@ -1705,6 +1717,10 @@
           },
           "small": {
             "value": "{font.base.regular.text-10}",
+            "type": "typography"
+          },
+          "small-bold": {
+            "value": "{font.base.bold.text-10}",
             "type": "typography"
           },
           "bold": {
