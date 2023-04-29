@@ -1325,7 +1325,7 @@
               "lineHeight": "{line-height.text-normal}",
               "fontSize": "14px",
               "letterSpacing": "",
-              "textCase": "uppercase"
+              "textCase": ""
             },
             "type": "typography",
             "description": "Large text. Best for large title"
@@ -1607,11 +1607,11 @@
         "type": "typography"
       },
       "label": {
-        "value": "{font.base.bold.text-9}",
+        "value": "{font.base.bold.text-10}",
         "type": "typography"
       },
       "input": {
-        "value": "{font.base.bold.text-10}",
+        "value": "{font.base.bold.text-9}",
         "type": "typography",
         "description": "placeholder"
       }
