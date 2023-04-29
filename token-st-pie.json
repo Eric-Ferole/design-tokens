@@ -1478,17 +1478,17 @@
               "type": "typography"
             },
             "regular": {
-              "value": "{font.base.regular.text-7}",
+              "value": "{font.base.regular.text-8}",
               "type": "typography"
             }
           },
           "mobile": {
             "bold": {
-              "value": "{font.base.bold.text-7}",
+              "value": "{font.base.bold.text-8}",
               "type": "typography"
             },
             "regular": {
-              "value": "{font.base.regular.text-7}",
+              "value": "{font.base.regular.text-8}",
               "type": "typography"
             }
           }
@@ -1521,6 +1521,38 @@
             },
             "regular": {
               "value": "{font.base.regular.text-3}",
+              "type": "typography"
+            }
+          }
+        },
+        "h6": {
+          "desktop": {
+            "bold": {
+              "value": "{font.base.bold.text-8}",
+              "type": "typography"
+            },
+            "regular": {
+              "value": "{font.base.regular.text-8}",
+              "type": "typography"
+            }
+          },
+          "tablet": {
+            "bold": {
+              "value": "{font.base.bold.text-9}",
+              "type": "typography"
+            },
+            "regular": {
+              "value": "{font.base.regular.text-9}",
+              "type": "typography"
+            }
+          },
+          "mobile": {
+            "bold": {
+              "value": "{font.base.bold.text-9}",
+              "type": "typography"
+            },
+            "regular": {
+              "value": "{font.base.regular.text-9}",
               "type": "typography"
             }
           }
