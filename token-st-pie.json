@@ -908,6 +908,10 @@
         "light": {
           "value": "{color.base.light}",
           "type": "color"
+        },
+        "primary": {
+          "value": "{color.base.primary.B-600}",
+          "type": "color"
         }
       }
     },
