@@ -33,7 +33,17 @@
           "type": "color",
           "description": "Color used as black"
         },
+        "dark": {
+          "value": "{color.base.neutral.N-800}",
+          "type": "color",
+          "description": "Color used as black"
+        },
         "white": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Color used as white"
+        },
+        "light": {
           "value": "#ffffff",
           "type": "color",
           "description": "Color used as white"
@@ -887,6 +897,16 @@
       "shadow": {
         "default": {
           "value": "rgba(0,0,0,0.2)",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "dark": {
+          "value": "{color.base.dark}",
+          "type": "color"
+        },
+        "light": {
+          "value": "{color.base.light}",
           "type": "color"
         }
       }
