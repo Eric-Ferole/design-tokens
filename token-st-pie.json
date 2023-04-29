@@ -243,8 +243,18 @@
               "type": "color",
               "description": "Background hover color for button with brand primary color"
             },
+            "primary-light": {
+              "value": "#ebf1fe",
+              "type": "color",
+              "description": "Background hover color for button with brand primary color"
+            },
             "medium": {
               "value": "{color.base.neutral.N-600}",
+              "type": "color",
+              "description": "Background hover color for button with brand primary color"
+            },
+            "dark": {
+              "value": "{color.base.dark}",
               "type": "color",
               "description": "Background hover color for button with brand primary color"
             }
@@ -257,6 +267,14 @@
             },
             "primary": {
               "value": "#09338a",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{color.base.dark}",
+              "type": "color"
+            },
+            "light": {
+              "value": "{color.base.light}",
               "type": "color"
             }
           }
@@ -328,6 +346,14 @@
             "dark": {
               "value": "{color.base.black}",
               "type": "color"
+            },
+            "primary": {
+              "value": "{color.base.primary.B-600}",
+              "type": "color"
+            },
+            "primary-dark": {
+              "value": "{color.base.primary.B-800}",
+              "type": "color"
             }
           },
           "focus": {
@@ -338,6 +364,10 @@
             "dark": {
               "value": "{color.base.black}",
               "type": "color"
+            },
+            "active": {
+              "value": "{color.base.primary.B-600}",
+              "type": "color"
             }
           },
           "active": {
@@ -347,6 +377,10 @@
             },
             "dark": {
               "value": "{color.base.black}",
+              "type": "color"
+            },
+            "primary": {
+              "value": "{color.base.primary.B-600}",
               "type": "color"
             }
           },
@@ -911,6 +945,10 @@
         },
         "primary": {
           "value": "{color.base.primary.B-600}",
+          "type": "color"
+        },
+        "primary-dark": {
+          "value": "{color.base.primary.B-800}",
           "type": "color"
         }
       }
