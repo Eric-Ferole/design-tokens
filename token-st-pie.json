@@ -970,68 +970,70 @@
       "value": "128px",
       "type": "spacing"
     },
-    "shadow-300": {
-      "value": [
-        {
-          "x": "0",
-          "y": "20",
-          "blur": "25",
-          "spread": "-5",
-          "color": "{color.shadow.default}",
-          "type": "dropShadow"
-        },
-        {
-          "x": "0",
-          "y": "0",
-          "blur": "10",
-          "spread": "0",
-          "color": "{color.shadow.default}",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow"
-    },
-    "shadow-200": {
-      "value": [
-        {
-          "x": "0",
-          "y": "4",
-          "blur": "4",
-          "spread": "0",
-          "color": "{color.shadow.default}",
-          "type": "dropShadow"
-        },
-        {
-          "x": "0",
-          "y": "4",
-          "blur": "12",
-          "spread": "0",
-          "color": "{color.shadow.default}",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow"
-    },
-    "shadow-100": {
-      "value": [
-        {
-          "x": "0",
-          "y": "0",
-          "blur": "4",
-          "spread": "0",
-          "color": "{color.shadow.default}",
-          "type": "dropShadow"
-        },
-        {
-          "x": "0",
-          "y": "4",
-          "blur": "4",
-          "spread": "-2",
-          "color": "{color.shadow.default}",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow"
+    "box-shadow": {
+      "high": {
+        "value": [
+          {
+            "x": "0",
+            "y": "20",
+            "blur": "25",
+            "spread": "-5",
+            "color": "{color.shadow.default}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "10",
+            "spread": "0",
+            "color": "{color.shadow.default}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "medium": {
+        "value": [
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "4",
+            "spread": "0",
+            "color": "{color.shadow.default}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "12",
+            "spread": "0",
+            "color": "{color.shadow.default}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "low": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "4",
+            "spread": "0",
+            "color": "{color.shadow.default}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "4",
+            "spread": "-2",
+            "color": "{color.shadow.default}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      }
     },
     "font-family": {
       "brand-font-primary": {
@@ -1688,7 +1690,7 @@
         "value": "50%",
         "type": "opacity"
       },
-      "hight": {
+      "high": {
         "value": "90%",
         "type": "opacity"
       }
@@ -1713,6 +1715,54 @@
       "button": {
         "value": "{border-radius.global}",
         "type": "borderRadius"
+      },
+      " interactive-box": {
+        "value": "{border-radius.global}",
+        "type": "borderRadius"
+      }
+    },
+    "border-width": {
+      "global": {
+        "value": {
+          "width": "1px",
+          "color": "{color.border.light-gray}"
+        },
+        "type": "border"
+      },
+      "box": {
+        "value": {
+          "width": "1px",
+          "color": "{color.border.light-gray}"
+        },
+        "type": "border"
+      },
+      "media": {
+        "value": {
+          "width": "1px",
+          "color": "{color.border.light-gray}"
+        },
+        "type": "border"
+      },
+      "input": {
+        "value": {
+          "width": "1px",
+          "color": "{color.border.light-gray}"
+        },
+        "type": "border"
+      },
+      "button": {
+        "value": {
+          "width": "1px",
+          "color": "{color.border.light-gray}"
+        },
+        "type": "border"
+      },
+      "interactive-box": {
+        "value": {
+          "width": "1px",
+          "color": "{color.border.light-gray}"
+        },
+        "type": "border"
       }
     }
   },
