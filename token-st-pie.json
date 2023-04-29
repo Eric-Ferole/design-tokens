@@ -232,6 +232,11 @@
               "value": "#ebf1fe",
               "type": "color",
               "description": "Background hover color for button with brand primary color"
+            },
+            "medium": {
+              "value": "{color.base.neutral.N-600}",
+              "type": "color",
+              "description": "Background hover color for button with brand primary color"
             }
           },
           "active": {
@@ -299,6 +304,10 @@
           },
           "dark": {
             "value": "{color.base.black}",
+            "type": "color"
+          },
+          "primary": {
+            "value": "{color.base.primary.B-600}",
             "type": "color"
           },
           "hover": {
