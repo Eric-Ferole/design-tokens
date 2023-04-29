@@ -1399,7 +1399,7 @@
               "type": "typography"
             },
             "regular": {
-              "value": "{font.base.regular.text-3}",
+              "value": "{font.base.regular.text-2}",
               "type": "typography"
             }
           },
@@ -1415,11 +1415,11 @@
           },
           "mobile": {
             "bold": {
-              "value": "{font.base.bold.text-2}",
+              "value": "{font.base.bold.text-4}",
               "type": "typography"
             },
             "regular": {
-              "value": "{font.base.regular.text-3}",
+              "value": "{font.base.regular.text-4}",
               "type": "typography"
             }
           }
@@ -1652,43 +1652,43 @@
       "text": {
         "desktop": {
           "regular": {
-            "value": "{font.base.regular.text-8}",
-            "type": "typography"
-          },
-          "small": {
             "value": "{font.base.regular.text-9}",
             "type": "typography"
           },
+          "small": {
+            "value": "{font.base.regular.text-10}",
+            "type": "typography"
+          },
           "bold": {
-            "value": "{font.base.bold.text-8}",
+            "value": "{font.base.bold.text-9}",
             "type": "typography"
           }
         },
         "tablet": {
           "regular": {
-            "value": "{font.base.regular.text-8}",
-            "type": "typography"
-          },
-          "small": {
             "value": "{font.base.regular.text-9}",
             "type": "typography"
           },
+          "small": {
+            "value": "{font.base.regular.text-10}",
+            "type": "typography"
+          },
           "bold": {
-            "value": "{font.base.bold.text-8}",
+            "value": "{font.base.bold.text-9}",
             "type": "typography"
           }
         },
         "mobile": {
           "regular": {
-            "value": "{font.base.regular.text-8}",
-            "type": "typography"
-          },
-          "small": {
             "value": "{font.base.regular.text-9}",
             "type": "typography"
           },
+          "small": {
+            "value": "{font.base.regular.text-10}",
+            "type": "typography"
+          },
           "bold": {
-            "value": "{font.base.bold.text-8}",
+            "value": "{font.base.bold.text-9}",
             "type": "typography"
           }
         }
