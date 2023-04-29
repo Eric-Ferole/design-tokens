@@ -562,6 +562,10 @@
             "value": "{color.base.black}",
             "type": "color"
           },
+          "light": {
+            "value": "{color.base.light}",
+            "type": "color"
+          },
           "warning": {
             "value": "#FFF6E6",
             "type": "color"
@@ -936,11 +940,11 @@
           "type": "color"
         },
         "medium-gray": {
-          "value": "{color.base.neutral.N-700}",
+          "value": "{color.base.neutral.N-500}",
           "type": "color"
         },
         "dark-gray": {
-          "value": "{color.base.neutral.N-500}",
+          "value": "{color.base.neutral.N-700}",
           "type": "color"
         }
       },
