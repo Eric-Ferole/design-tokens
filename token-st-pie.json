@@ -1750,6 +1750,10 @@
       "high": {
         "value": "90%",
         "type": "opacity"
+      },
+      "none": {
+        "value": "100%",
+        "type": "opacity"
       }
     },
     "border-radius": {
