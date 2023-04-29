@@ -566,16 +566,32 @@
             "value": "#FFF6E6",
             "type": "color"
           },
+          "warning-constrast": {
+            "value": "#FFC702",
+            "type": "color"
+          },
           "info": {
             "value": "#EBF4FF",
+            "type": "color"
+          },
+          "info-contrast": {
+            "value": "{color.base.primary.B-600}",
             "type": "color"
           },
           "error": {
             "value": "#FFF0F0",
             "type": "color"
           },
+          "error-contrast": {
+            "value": "#C53030",
+            "type": "color"
+          },
           "succes": {
             "value": "#E6FFFA",
+            "type": "color"
+          },
+          "succes-contrast": {
+            "value": "#2C7A7B",
             "type": "color"
           }
         },
