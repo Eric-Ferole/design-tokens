@@ -876,57 +876,6 @@
         }
       }
     },
-    "button": {
-      "focus": {
-        "value": "{border-width-large}",
-        "type": "borderWidth",
-        "description": "Outline for button focus for the primary button"
-      },
-      "medium": {
-        "value": "{border-radius-input-medium}",
-        "type": "borderRadius"
-      },
-      "secondary": {
-        "value": "{border-width-medium}",
-        "type": "borderWidth"
-      }
-    },
-    "link": {
-      "focus": {
-        "value": "{border-width-medium}",
-        "type": "borderWidth",
-        "description": "Focus border for links"
-      }
-    },
-    "input": {
-      "focus": {
-        "value": "2",
-        "type": "borderWidth",
-        "description": "Outline for button focus for the primary button"
-      }
-    },
-    "base": {
-      "border-radius-x-small": {
-        "value": "2px",
-        "type": "borderRadius"
-      },
-      "border-radius-small": {
-        "value": "4px",
-        "type": "borderRadius"
-      },
-      "border-radius-large": {
-        "value": "16px",
-        "type": "borderRadius"
-      },
-      "border-radium-medium": {
-        "value": "8px",
-        "type": "borderRadius"
-      },
-      "border-radius-none": {
-        "value": "0",
-        "type": "borderRadius"
-      }
-    },
     "size": {
       "4px": {
         "value": "4px",
@@ -968,14 +917,6 @@
         "value": "128px",
         "type": "sizing"
       }
-    },
-    "border-radius-input-medium": {
-      "value": "{base.border-radium-medium}",
-      "type": "borderRadius"
-    },
-    "border-radius-rounded": {
-      "value": "999",
-      "type": "borderRadius"
     },
     "spacing-00": {
       "value": "2",
@@ -1105,18 +1046,6 @@
         "value": "Raleway",
         "type": "fontFamilies"
       }
-    },
-    "border-width-small": {
-      "value": "1",
-      "type": "borderWidth"
-    },
-    "border-width-medium": {
-      "value": "2",
-      "type": "borderWidth"
-    },
-    "border-width-large": {
-      "value": "3",
-      "type": "borderWidth"
     },
     "font": {
       "base": {
@@ -1762,6 +1691,28 @@
       "hight": {
         "value": "90%",
         "type": "opacity"
+      }
+    },
+    "border-radius": {
+      "global": {
+        "value": "8px",
+        "type": "borderRadius"
+      },
+      "box": {
+        "value": "{border-radius.global}",
+        "type": "borderRadius"
+      },
+      "media": {
+        "value": "{border-radius.global}",
+        "type": "borderRadius"
+      },
+      "input": {
+        "value": "{border-radius.global}",
+        "type": "borderRadius"
+      },
+      "button": {
+        "value": "{border-radius.global}",
+        "type": "borderRadius"
       }
     }
   },
