@@ -874,6 +874,12 @@
           "value": "{color.base.neutral.N-500}",
           "type": "color"
         }
+      },
+      "shadow": {
+        "default": {
+          "value": "rgba(0,0,0,0.2)",
+          "type": "color"
+        }
       }
     },
     "size": {
@@ -1033,6 +1039,12 @@
           }
         ],
         "type": "boxShadow"
+      },
+      "interactive-box": {
+        "default": {
+          "value": "{box-shadow.low}",
+          "type": "boxShadow"
+        }
       }
     },
     "font-family": {
