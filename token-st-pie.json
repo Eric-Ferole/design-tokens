@@ -789,7 +789,7 @@
             "type": "color"
           },
           "contrast": {
-            "value": "{color.base.primary.B-700}",
+            "value": "{color.base.primary.B-600}",
             "type": "color"
           },
           "emphasis": {
