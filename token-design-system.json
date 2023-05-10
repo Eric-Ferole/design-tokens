@@ -585,6 +585,10 @@
             "value": "{color.base.primary.B-600}",
             "type": "color"
           },
+          "light-primary": {
+            "value": "{color.base.primary.B-50}",
+            "type": "color"
+          },
           "emphasis": {
             "value": "{color.base.primary.B-800}",
             "type": "color"
