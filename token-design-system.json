@@ -1666,6 +1666,10 @@
       " interactive-box": {
         "value": "{border-radius.global}",
         "type": "borderRadius"
+      },
+      "round": {
+        "value": "999px",
+        "type": "borderRadius"
       }
     },
     "border-width": {
